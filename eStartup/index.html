@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>myBMR</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link
+      href="https://img.icons8.com/external-kiranshastry-lineal-color-kiranshastry/128/000000/external-dumbell-healthy-kiranshastry-lineal-color-kiranshastry.png"
+      rel="icon"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: eStartup - v4.7.1
+  * Template URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  </head>
+
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <div id="logo">
+          <h1>
+            <a href="index.html"><span>my</span>BMR</a>
+          </h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" title="" /></a>-->
+        </div>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="#hero">What is BMR?</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#about-us">Calculator</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#testimonials">Testimonials</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" style="margin-top: -7%;">
+      <div class="hero-container" data-aos="fade-in">
+        <h1 style="margin-bottom: 1%;">What is BMR?</h1>
+        <div class="card p-3 mb-2">
+          <div class="btn-get-started">
+            <h3 class="heading" style="margin-bottom: 15px;">Basal Metabolic Rate</h3>
+            <p>Basal Metabolic Rate (BMR) is an estimate of the amount of calories a person burns in a given day. It is a vital statistic which allows individuals to design a healthier, individualized diets and lifestyles. Given the growing obesity epidemic and the insufficient education on health, our BMR calculator is a critical tool in promoting education and awareness.</p>
+          </div>
+      </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <main id="main">
+      <!-- ======= About Us Section ======= -->
+          <div id= "about-us" class="container aos-init aos-animate" data-aos="fade-up"  style="margin-top: -15%;">
+            <div class="row justify-content-center aos-init aos-animate">
+              <div class="col-lg-5 col-md-8">
+                    <div class="form">
+                          <h2 class="title">BMR Calculator</h2>
+                          <div class="input-container ic1">
+                            <input id="age" class="input" type="text" placeholder="Age" />
+                          </div>
+                          <div class="input-container ic1">
+                            <input id="sex" class="input" type="" placeholder="Sex(m/f)" />
+                          </div>
+                          <div class="input-container ic1">
+                            <input id="weight" class="input" type="text" placeholder="Weight" />
+                          </div>
+                          <div class="input-container ic1">
+                            <input id="height" class="input" type="text" placeholder="Height" />
+                          </div>
+                          <button type="text" class="submit" onclick="handleSubmit()">Submit</button>
+                        </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+      <!-- End About Us Section -->
+
+      <!-- ======= Testimonials Section ======= -->
+      <section id="testimonials" class="padd-section text-center">
+        <div class="container" data-aos="fade-up">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="testimonials-content">
+                <div
+                  id="carousel-example-generic"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                      <div class="top-top">
+                        <h2>User Testimonials</h2>
+                        <p>
+                          I have been using this calculator to ensure that I
+                          have beeng receiving the correct amount of calories
+                          per day. As I lose weight, I get excited when I see
+                          the new amount of caloreis/day I need!
+                        </p>
+                        <h4>Venkatesh A.<span>Gym Enthusiast</span></h4>
+                        <img
+                          class="testiimg"
+                          src="https://media.discordapp.net/attachments/817432681633153029/977640552549978122/unknown.png?width=701&height=701"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="top-top">
+                        <h2>User Testimonials</h2>
+                        <p>
+                          I have been using this calculator for my clients and
+                          they have been seeing a consistent amount of weight
+                          loss after by following the caclulator's recommended
+                          daily calorie intake!
+                        </p>
+                        <h4>Suchit T.<span>Athletic Trainer</span></h4>
+                        <img
+                          class="testiimg"
+                          src="https://media.discordapp.net/attachments/817432681633153029/977622338432532512/unknown.png"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="top-top">
+                        <h2>User Testimonials</h2>
+                        <p>
+                          I have been using this calculator to make sure that I
+                          am eating above my base caloric requirements to
+                          gain weight. It's working great!
+                        </p>
+                        <h4>Narayana T.<span>Fitness Fanatic</span></h4>
+                        <img
+                          class="testiimg"
+                          src="https://media.discordapp.net/attachments/817432681633153029/977624202565812264/unknown.png?width=628&height=701"
+                        />
+                      </div>
+                    </div>
+
+                    <div class="carousel-item">
+                      <div class="top-top">
+                        <h2>User Testimonials</h2>
+                        <p>
+                          With this website, I can gain muscle sustainably and
+                          finally get a girlfriend!
+                        </p>
+                        <h4>Sahij M.<span>Body Builder</span></h4>
+                        <img
+                          class="testiimg"
+                          src="https://media.discordapp.net/attachments/817432681633153029/977625191737851954/unknown.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="btm-btm">
+                    <ul class="list-unstyled carousel-indicators">
+                      <li
+                        data-bs-target="#carousel-example-generic"
+                        data-bs-slide-to="0"
+                        class="active"
+                      ></li>
+                      <li
+                        data-bs-target="#carousel-example-generic"
+                        data-bs-slide-to="1"
+                      ></li>
+                      <li
+                        data-bs-target="#carousel-example-generic"
+                        data-bs-slide-to="2"
+                      ></li>
+                      <li
+                        data-bs-target="#carousel-example-generic"
+                        data-bs-slide-to="3"
+                      ></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Testimonials Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-4">
+            <div class="footer-logo">
+              <a class="navbar-brand" href="#">myBMR</a>
+              <p>
+                Created by Anish Reddy, Rishith Seelam, Ritij Jutur, Olaf Dsouza
+              </p>
+            </div>
+          </div>
+
+          <div class="col-sm-6 col-md-3 col-lg-2">
+            <div class="list-menu">
+              <h4>Contents</h4>
+
+              <ul class="list-unstyled">
+                <li>
+                  <a class="nav-link scrollto active" href="#hero"
+                    >What is BMR?</a
+                  >
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="#about-us">Calculator</a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="#testimonials"
+                    >Testimonials</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End  Footer -->
+
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>
