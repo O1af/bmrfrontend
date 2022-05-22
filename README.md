@@ -3,7 +3,7 @@
 <h1 align="center" style = "color:green;">myBMR</h1>
 
 <h2>Description</h2>
-<p>Basal metabolic rate (BMR) is an estimate of the number of calories a person burns in a given day. It is a vital statistic which allows individuals to design a healthier, individualized diets and lifestyles. Given the growing obesity epidemic and the insufficient education on health, our BMR calculator is a critical tool in promoting education and awareness.</p>
+<p>Basal metabolic rate (BMR) is an estimate of the number of calories a person burns in a given day. It is a vital statistic which allows individuals to design a healthier, individualized diet and lifestyle. Given the growing obesity epidemic and the insufficient education on health, our BMR calculator is a critical tool in promoting education and awareness.</p>
 
 
 <h2>Installation</h2>
