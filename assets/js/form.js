@@ -22,7 +22,7 @@ const handleSubmit = async () => {
 		})
 		.then((res) => {
 			console.log(res);
-			result.innerHTML = "Basal Metabolic Rate: " + res;
+			result.innerHTML = "Basal Metabolic Rate: " + res + " Calories";
 		})
 		.catch((err) => {
 			console.error(err);
