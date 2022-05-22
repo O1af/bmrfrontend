@@ -3,7 +3,8 @@ const handleSubmit = async () => {
 	height = document.getElementById("height").value;
 	age = document.getElementById("age").value;
 	sex = document.getElementById("sex").value;
-	fetch("http://localhost:3000/bmr", {
+	result = document.getElementById("bmrresult");
+	fetch("https://hello-world-1-hytpdimfwa-uc.a.run.app/bmr", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
@@ -16,7 +17,12 @@ const handleSubmit = async () => {
 		}),
 	})
 		.then((response) => {
-			console.log(response.json());
+			response = response.json();
+			return response;
+		})
+		.then((res) => {
+			console.log(res);
+			result.innerHTML = "Basal Metabolic Rate: " + res;
 		})
 		.catch((err) => {
 			console.error(err);
