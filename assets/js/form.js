@@ -4,7 +4,7 @@ const handleSubmit = async () => {
 	age = document.getElementById("age").value;
 	sex = document.getElementById("sex").value;
 	result = document.getElementById("bmrresult");
-	fetch("https://hello-world-1-hytpdimfwa-uc.a.run.app/bmr", {
+	fetch("https://anishisreddy-95-hytpdimfwa-uc.a.run.app/bmr", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
